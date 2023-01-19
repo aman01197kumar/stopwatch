@@ -1,0 +1,61 @@
+
+.value{
+    font-size: 10rem;
+    color: aliceblue;
+}
+#content{
+    font-size: 4rem;
+    color: darkgray;
+}
+.buttons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    width: 9rem;
+    height: 4rem;
+    font-size: 31px;
+    margin-right: 2rem;
+}
+.stopwatch{
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+             width: 49rem;
+             height: 20rem;
+             margin: 10rem auto;
+} 
+#start{
+    background-color: green;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+#stop{
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+#reset{
+    background-color: rgb(155, 155, 70);
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+#lap{
+    background: #9cdbc6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}

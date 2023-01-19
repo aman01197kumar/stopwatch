@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="stopwatch">
+      <div class="container">
+        <span class="value" id="hr">00</span>
+        <span id="content">hr</span>&nbsp;&nbsp;&nbsp;
+        <span class="value" id="min">00</span>
+        <span id="content">min</span>
+        <span class="value" id="sec">00</span>
+        <span id="content">sec</span>
+      </div>
+      <div class="buttons">
+        <button id="start" onclick="start()">Start</button>
+        <button id="stop" onclick="stop()">Stop</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="lap" onclick="lap()">Lap</button>
+      </div>
+      <ul id="list"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
